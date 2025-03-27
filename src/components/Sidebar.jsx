@@ -16,7 +16,7 @@ export default function Sidebar () {
             <img id="logo" src={Logo}/>
             <div id="sidebar-content">
                 <div id="sidebar-links">
-                    <Link className="sidebar-element">
+                    <Link className="sidebar-element" to="/notes">
                         <Home/>
                         <p className="text-preset-4">All Notes</p>
                         <ChevronRight/>

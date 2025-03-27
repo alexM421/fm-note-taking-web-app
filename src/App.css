@@ -97,6 +97,10 @@
   box-sizing: border-box;
 }
 
+a{
+  text-decoration: none;
+}
+
 .inter{
   --font-family-choice: "Inter", sans-serif;
 }

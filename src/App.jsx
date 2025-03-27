@@ -17,8 +17,9 @@ export default function App() {
   return (
     <Routes>
       <Route path="/" element={<Layout />}>
-        <Route path="notes" element={<Allnotes/>}  />
-        <Route path="notes/:id" element={<NoteContent/>} />
+        <Route path="notes" element={<Allnotes/>}>
+          <Route path=":id" element={<NoteContent/>} />
+        </Route>
       </Route>
     </Routes>
   )
