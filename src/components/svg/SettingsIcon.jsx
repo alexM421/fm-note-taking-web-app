@@ -1,7 +1,8 @@
 import * as React from "react"
-const Settings = (props) => (
+const SettingsIcon = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
+    className="settings-icon"
     width={20}
     height={20}
     fill="none"
@@ -16,4 +17,4 @@ const Settings = (props) => (
     />
   </svg>
 )
-export default Settings
+export default SettingsIcon

@@ -1,6 +1,8 @@
 import React from "react";
-import Settings from "./svg/Settings";
+import SettingsIcon from "./svg/SettingsIcon";
 import Search from "./svg/Search";
+
+import { Link } from "react-router-dom";
 
 export default function Headbar () {
 
@@ -16,7 +18,9 @@ export default function Headbar () {
                     placeholder="Search by title, content, or tags…"
                     />
                 </div>
-                <Settings/>
+                <Link to="/settings">
+                    <SettingsIcon/>
+                </Link>
             </div>
         </div>
     )
